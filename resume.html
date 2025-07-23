@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #222;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        header a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            background-color: #e2e2e2;
+            color: #333;
+            padding: 8px 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #007bff;
+            font-size: 1.6em;
+        }
+
+        /* Experience and Education Item Styling */
+        .item {
+            margin-bottom: 20px;
+            padding-left: 10px;
+            border-left: 3px solid #eee;
+        }
+
+        .item h3 {
+            margin: 0;
+            color: #333;
+            font-size: 1.3em;
+        }
+
+        .item h4 {
+            margin: 5px 0;
+            color: #666;
+            font-size: 1.1em;
+            font-weight: normal;
+        }
+
+        .item p {
+            margin: 5px 0;
+            font-size: 0.95em;
+        }
+
+        .item ul {
+            list-style: disc;
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+
+        .item ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills Styling */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills ul li {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        /* Footer Styling (Optional) */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Full Name</h1>
+        <p>
+            <a href="mailto:youremail@example.com">youremail@example.com</a> |
+            <a href="tel:+1234567890">+1 (234) 567-890</a> |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Summary</h2>
+        <p>A concise and compelling summary of your professional experience, key skills, and career objectives. Tailor this section to the specific job you are applying for, highlighting your most relevant qualifications and achievements.</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="item">
+            <h3>Job Title</h3>
+            <h4>Company Name | City, State | Month Year – Month Year</h4>
+            <ul>
+                <li>Responsible for [Key responsibility 1], resulting in [quantifiable achievement].</li>
+                <li>Developed and implemented [Project/Initiative], achieving [positive outcome].</li>
+                <li>Collaborated with [Team/Stakeholders] on [Task], contributing to [Success].</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Another Job Title</h3>
+            <h4>Another Company | City, State | Month Year – Month Year</h4>
+            <ul>
+                <li>Managed [X], leading to [Y] improvement.</li>
+                <li>Successfully executed [Z] by [method].</li>
+                <li>[Add more bullet points demonstrating impact and skills]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <h3>Degree Name, Major</h3>
+            <h4>University Name | City, State | Month Year – Month Year</h4>
+            <p>Relevant coursework: Course 1, Course 2, Course 3</p>
+            <p>GPA: X.X (Optional)</p>
+        </div>
+        <div class="item">
+            <h3>Another Degree/Certification (if applicable)</h3>
+            <h4>Institution Name | City, State | Month Year – Month Year</h4>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript, Java, C++</li>
+            <li>Web Technologies: HTML5, CSS3, React, Node.js, REST APIs</li>
+            <li>Databases: SQL, MongoDB</li>
+            <li>Tools & Platforms: Git, Docker, AWS, Jira</li>
+            <li>Soft Skills: Problem-Solving, Teamwork, Communication, Leadership</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects (Optional)</h2>
+        <div class="item">
+            <h3>Project Name</h3>
+            <h4>Technologies Used: Tech 1, Tech 2, Tech 3</h4>
+            <ul>
+                <li>Brief description of the project's purpose and your role.</li>
+                <li>Key features implemented and challenges overcome.</li>
+                <li>Link to project: <a href="https://github.com/yourprofile/projectname" target="_blank">GitHub Repo</a> (if applicable)</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Another Project Name</h3>
+            <h4>Technologies Used: Tech A, Tech B</h4>
+            <ul>
+                <li>Description of another significant project.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Your Full Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
